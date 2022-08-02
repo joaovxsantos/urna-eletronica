@@ -1,39 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  margin-top: 1rem;
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
-section, footer{
-    text-align: center;
-    margin-top: 1rem;
-    padding: 1rem;
+section,
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
-section > p{
-    padding: 2rem;
+section > p {
+  padding: 2rem;
 }
 
-[type="submit"]{
-    width: 6rem;
-    padding: 1rem;
+[type="submit"] {
+  width: 6rem;
+  padding: 1rem;
 }
 
-[type="number"]{
-    padding: 1rem;
+[type="number"] {
+  padding: 1rem;
 }
 
+img {
+  margin-top: 2rem;
+}
 
-img{
-    margin-top: 2rem;
+a:visited {
+  color: black;
 }
