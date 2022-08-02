@@ -13,3 +13,27 @@ ul{
     justify-content: space-around;
     padding: 1rem;
 }
+
+section, footer{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+section > p{
+    padding: 2rem;
+}
+
+[type="submit"]{
+    width: 6rem;
+    padding: 1rem;
+}
+
+[type="number"]{
+    padding: 1rem;
+}
+
+
+img{
+    margin-top: 2rem;
+}
