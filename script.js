@@ -2,10 +2,10 @@ let boxsubmit = document.getElementById("submit")
 
 
 function primer() {
+    
     let boxnumber = document.getElementById("number")
     let img = document.getElementById("img")
     let label = document.getElementById("label")
-
 
     if (boxnumber.value == 12) {
         img.setAttribute("src", "./images/cirozada.jpg")
@@ -20,12 +20,6 @@ function primer() {
         img.setAttribute("src", "./images/bolsocorno.jpg")
         label.innerHTML = "Jair Bolsonaro"
     }
-
-
-
-
-
-
 }
 
 
