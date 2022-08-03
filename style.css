@@ -22,6 +22,7 @@ li {
   margin-top: 1rem;
   margin-left: 1rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 img {
@@ -40,7 +41,6 @@ section {
 
 .fifth {
   display: flex;
-  /* justify-content: end; */
   justify-content: end;
 }
 
@@ -48,4 +48,5 @@ input {
   margin-left: 3px;
   margin-top: 3vh;
   padding: 10px;
+  cursor: pointer;
 }
