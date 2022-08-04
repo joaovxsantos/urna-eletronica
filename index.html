@@ -12,57 +12,64 @@
 <body>
     <header>
         <h1>Urna eletrônica</h1>
+        <h2>Votação para Presidente da República</h2>
     </header>
 
     <main>
-        <section>
+        <section id="sec1">
 
 
-
-            <img src="./images/jse.png" width="300px" height="200px" alt="">
-            
+            <div class="img">
+                <img src="./images/jse.png" width="300px" height="200px" alt="">
+                <h2 id="result"></h2>
+                <p></p>
+                <img src="" width="70px" alt="">
+            </div>
 
             <div class="first">
+
                 <ul>
-                    <li value="1">1</li>
-                    <li value="2">2</li>
-                    <li value="3">3</li>
+                    <li id="1">1</li>
+                    <li id="2">2</li>
+                    <li id="3">3</li>
                 </ul>
             </div>
 
             <div class="second">
                 <ul>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
+                    <li id="4">4</li>
+                    <li id="5">5</li>
+                    <li id="6">6</li>
                 </ul>
             </div>
             <div class="thrid">
                 <ul>
-                    <li>7</li>
-                    <li>8</li>
-                    <li>9</li>
+                    <li id="7">7</li>
+                    <li id="8">8</li>
+                    <li id="9">9</li>
                 </ul>
             </div>
 
             <div class="fourth">
                 <ul>
 
-                    <li>0</li>
-                    
+                    <li id="0">0</li>
+
                 </ul>
 
             </div>
 
             <div class="fifth">
                 <input type="number" id="ipt">
-                <input type="submit" value="BRANCO">
+                <input type="submit" id="nulo" value="BRANCO">
                 <input type="reset" value="CORRIGE">
-                <input type="submit" value="CONFIRMAR">
-                
+                <input type="submit" id="submit" value="CONFIRMAR">
+
             </div>
-            <p></p>
+
+
         </section>
+
     </main>
 
     <footer>
