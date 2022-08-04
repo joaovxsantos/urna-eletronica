@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  outline: none;
 }
 
 h1 {
@@ -11,7 +12,6 @@ h1 {
 ul {
   display: flex;
   list-style: none;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -39,14 +39,23 @@ section {
   padding: 2rem;
 }
 
-.fifth {
+/* .fifth {
   display: flex;
   justify-content: end;
-}
+} */
 
 input {
-  margin-left: 3px;
-  margin-top: 3vh;
-  padding: 10px;
+  width: 130px;
+  margin-top: 7px;
+  padding: 6px;
   cursor: pointer;
+  float: left;
+}
+
+.fifth{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
