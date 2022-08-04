@@ -39,11 +39,6 @@ section {
   padding: 2rem;
 }
 
-/* .fifth {
-  display: flex;
-  justify-content: end;
-} */
-
 input {
   width: 130px;
   margin-top: 7px;
@@ -52,10 +47,9 @@ input {
   float: left;
 }
 
-.fifth{
-  
+.fifth {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin-left: 48vh;
 }
